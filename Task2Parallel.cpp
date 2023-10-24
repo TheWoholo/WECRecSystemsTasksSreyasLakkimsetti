@@ -92,6 +92,9 @@ void A11(int from, int b)
             for(k=from;k<from+b;k++)
             A[i][j]-=L[i][k]*U[k][j];
         }
+//If chunksize is very small, parallel method will take more time
+//But if chunksize is large, parallel method will take less time
+//Accordingly we can decide wether to go for the parallel of sequential method
 }
 
 void func(int from, int to)
