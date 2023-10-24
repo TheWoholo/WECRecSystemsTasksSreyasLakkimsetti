@@ -50,3 +50,5 @@ divide each row of L by the diagonal element in final matrix A
 and the inverse will be the the transpose of L or L
 
 I just went on with the typical adjoint method and tried to optimize the loops in it using parallel programming
+
+Please note that I learnt Parallel Programming and did all tasks on the last day, so the work may not be satisfactory, else I assure you that I can do a better job
