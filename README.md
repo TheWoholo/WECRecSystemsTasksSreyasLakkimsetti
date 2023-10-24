@@ -1,4 +1,7 @@
 # WECRecSystemsTasksSreyasLakkimsetti
+
+NOT DONE!!!!!
+
 I chose the Parallel Computing Task
 
 Problem Statements:
