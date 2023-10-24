@@ -14,6 +14,7 @@ Write a parallel program to find the inverse of a matrix.
 To execute the codes
 this it the terminal method
 g++ -o haha LUParallelI.cpp -fopenmp -mcmodel=large
+and then
 ./haha
 
 
