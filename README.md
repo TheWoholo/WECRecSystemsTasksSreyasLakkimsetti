@@ -38,6 +38,9 @@ for task2
 I used to block method where i execute some parts sequentially and some parts parallely
 Depending on the chunk size, either sequential or parallel methods for the subparts are better
 
+Note that, depending on the size of the loop, either parallel or sequential method is better
+bcos calling pragma takes some time, but when the size becomes very large, this wont make a big difference
+
 for task3
 
 Note that, we can perform task3 using a code very similar to task2
@@ -45,3 +48,5 @@ we can use GaussJordan Method where we perform LU Decomposition on A,
 then take transpose of A and L and perform LU Decomposition again, 
 divide each row of L by the diagonal element in final matrix A
 and the inverse will be the the transpose of L or L
+
+I just went on with the typical adjoint method and tried to optimize the loops in it using parallel programming
